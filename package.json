@@ -1,0 +1,20 @@
+{
+  "name": "react-app-structure-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "~1.12.4"
+  },
+  "scripts": {
+    "watch": "parcel src/index.html"
+  },
+  "alias": {
+    "#root": "./src"
+  },
+  "dependencies": {
+    "react": "~16.8.0",
+    "react-dom": "~16.8.0",
+    "styled-components": "~5.2.1"
+  }
+}
